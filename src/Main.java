@@ -38,9 +38,10 @@ public class Main implements ActionListener {
         label2.setFont(new Font("Comic Sans MS",Font.PLAIN,19));
         label2.setForeground(Color.WHITE);
 
-        button = new JButton("Montrer un autre Fait");
+        button = new JButton("MONTRER UN AUTRE FAIT");
         button.setBounds(20, 600, 860, 40);
         button.addActionListener(new Main());
+        button.setFont(new Font("Verdana",Font.BOLD,15));
         panel.add(button);
 
 
